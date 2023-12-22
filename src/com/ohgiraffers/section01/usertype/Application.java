@@ -39,15 +39,15 @@ public class Application {
 
         /* 2. 사용자 정의 자료형 (=Class) 사용한 회원 데이터 관리 */
         /* 2-1. 변수 선언 및 객체 생성 */
-        /* [객체(instance) 생성 구문]
-         * 자료형 변수명 = new 클래스명{};
+        /* [객체(object) 생성 구문]
+         * 클래스명 변수명 = new 클래스명();
          *
          * [객체 생성]
          * 사용자 정의 자료형인 클래스를 이용하기 위해서는 new 연산자로 heap영역에 할당해야 한다.
          * 객체를 생성하면 클래스에 정의한 필드와 메소드를 가진 객체(instance)가 만들어진다.
          * */
 
-        Member member = new Member(); // member = stack... new >> heap에다가 Member의 공간을 쓴다
+        Member member = new Member(); // 객체 생성 create a new object >> heap에다가 Member의 공간을 쓴다
         // Member의 주소값이 >> member
 
         /* 2-2. 생성된 인스턴스의 초기값 확인 */
